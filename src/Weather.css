@@ -8,9 +8,15 @@
 }
 
 html body {
-  background-color: #2391ff;
+  background: rgb(42, 55, 180);
+  background: linear-gradient(
+    180deg,
+    rgba(42, 55, 180, 1) 0%,
+    rgba(33, 86, 189, 1) 36%,
+    rgba(172, 71, 255, 1) 100%
+  );
   font-family: "Poppins", sans-serif;
-  height: 500px;
+  /* height: 500px; */
 }
 
 .glass {
