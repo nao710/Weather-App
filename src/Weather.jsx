@@ -29,12 +29,12 @@ function Weather(props) {
         <span>{props.data.weather && data.weather[0].description}</span>
         <div className="max_minTemp">
           <p className="temp">
-            Max <br /> Temp <br />
-            {props.data?.main?.temp_max}°C
-          </p>
-          <p className="temp">
             Min <br /> Temp <br />
             {props.data?.main?.temp_min}°C
+          </p>
+          <p className="temp">
+            Max <br /> Temp <br />
+            {props.data?.main?.temp_max}°C
           </p>
         </div>
         <div className="WindHumidity">
