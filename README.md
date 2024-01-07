@@ -5,6 +5,7 @@ Simple weather app built with React and [OpenWeatherAPI](https://openweathermap.
 
 
 ## Usage
+Take the API from [openweathermap.org](https://openweathermap.org/) and replace`API KEY`in`App.jsx`and`Weather.jsx`.<br/>
 To run locally, clone the repository and install the dependencies
 ```
 npm install
